@@ -1,0 +1,93 @@
+body {
+  background-color: #f9fafc;
+}
+
+header {
+  position: absolute;
+}
+
+nav ul  {
+  display: inline;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  color: #69696a;
+  float: left;
+  letter-spacing: normal;
+  margin-top: auto;
+  padding: 10px;
+}
+
+.hire {
+  position: static;
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  letter-spacing: normal;
+}
+
+h1 {
+  padding-top: 20%;
+  font-style: normal;
+  padding-left: 40px;
+}
+
+div p {
+  color: #69696a;
+  border-left: 3px solid;
+  padding-left: 20px;
+  position: absolute;
+  right: 63%;
+  left: 4%;
+}
+
+#circles {
+  padding-bottom: 20px;
+}
+.circle1 {
+  background-color: rgba(247,136,167,0.6);
+  position: absolute;
+  right: 30%;
+  height: 300px;
+  width: 320px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.circle2 {
+    background-color: rgba(247,193,162,0.7);
+    position: absolute;
+    height: 200px;
+    width: 190px;
+    border-radius: 50%;
+    left: 65%;
+    right: 0;
+    top: 70%;
+    z-index: 1;
+}
+
+.circle3 {
+  background-color: rgba(207,130,213,0.6);
+  position: absolute;
+  height: 150px;
+  width: 140px;
+  border-radius: 50%;
+  left: 65%;
+  z-index: -1;
+}
+
+.scroll {
+  position: fixed;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  top: 90%;
+  right: 50%;
+}
